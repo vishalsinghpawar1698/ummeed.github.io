@@ -1,0 +1,61 @@
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	background-image: url('../images/four.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white!important;
+	width: 100%;
+	height: 100vh;
+}
+
+.ourwork
+{
+	margin:90px auto;
+	text-align: center;
+}
+h1
+{
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+h1:after
+{
+	content: '';
+	background: white;
+	display:block;
+	width: 150px;
+	height: 3px;
+	margin: 10px auto;
+}
+
+
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 1px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: center;
+}
+
+.col-md-3:hover{
+	box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+.nav-link{
+	color: white;
+	text-align: right;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+.home a:hover{
+	color: orange!important;
+}

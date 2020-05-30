@@ -1,0 +1,52 @@
+header{
+	font-size: 24px;
+	font-family: sans-serif, cursive;
+	text-align: center;
+	background-color: grey;
+	font-weight: bold;
+	vertical-align: text-top;
+}
+
+p{
+	font-size: 20px;
+}
+
+main{
+	margin-left: 120px;
+}
+
+.box{
+	display: block;
+	float: left;
+	width: 30%;
+	padding: 7px;
+	padding-left: 12px;
+	width: 200px;
+	height: 150px;
+	
+}
+
+img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+img:hover{
+	transform: scale(3,3);
+	transition: .3s transform
+}
+
+.nav-link{
+	color: black;
+	text-align: right;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 100px;
+
+	
+}
+
+.home a:hover{
+	color: red!important;
+}

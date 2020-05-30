@@ -1,0 +1,117 @@
+
+
+.ourteam a{
+	font-size: 2.0rem;
+	font-weight:bold;
+	background-color:grey;
+
+
+}
+
+.ourteam p{
+	font-size: 1.2rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.team{
+	margin: 75px 0;
+}
+h1
+{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #333;
+	padding-bottom: 10px;
+}
+h1:after
+{
+	content: '';
+	background: #333;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 15px auto;
+}
+
+.profile{
+	margin-top: 25px;
+	float:  left;
+    margin-bottom: 50px;
+    width:200px;
+    height:400px;
+   
+}
+
+
+
+.profile .img-box{
+	opacity:1;
+	display: flex;
+	position: relative;
+	 width:300px;
+	height:400px;
+    
+}
+
+
+
+.profile h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: -90px;
+
+
+}
+
+.img-box:after{
+	content: '';
+	opacity: 0;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	right: 0;
+	left:0;
+	top: 0;
+	bottom:0;
+}
+
+.img-box:hover:after{
+	opacity:2;
+}
+
+.img-box h2:hover p{
+	color: #007bff;
+	border-radius: 1px solid #007bff;
+}
+
+.img-box:after, .img-box h2, img-box p
+{
+	transition: all 0.5s ease-in-out 0s;
+}
+
+.container{
+	background-color: grey;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	border-radius: 25px;
+}
+
+.nav-link{
+	color: black;
+	text-align: right;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+.home a:hover{
+	color: orange!important;
+}
+
+
+
